@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>البحث عن الصلب</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="logo.PNG" alt="الشعار" class="logo">
+    </div>
+    <h1>البحث عن الصلب</h1>
+    <input type="text" id="searchInput" placeholder="أدخل الخامة" />
+    <button onclick="searchSteel()">بحث</button>
+    <p id="result" style="font-weight: bold; margin-top: 10px;"></p>
+    <table id="steelTable">
+        <thead>
+            <tr>
+                <th>الخامة</th>
+                <th>الصلب</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- سيتم تعبئة البيانات هنا -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
